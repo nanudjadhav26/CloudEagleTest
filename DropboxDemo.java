@@ -5,8 +5,8 @@ import org.json.JSONObject;
 
 public class DropboxDemo {
 
-    private static final String CLIENT_ID = "jtosjovyh2g7moq";
-    private static final String CLIENT_SECRET = "18714pambtjtyql";
+    private static final String CLIENT_ID = "{{Client ID}}";
+    private static final String CLIENT_SECRET = "{{CLIENT SECRET}}";
     private static final String REDIRECT_URI = "http://localhost";
 
     public static void main(String[] args) throws Exception {
@@ -86,3 +86,4 @@ public class DropboxDemo {
         }
     }
 }
+
